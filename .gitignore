@@ -24,3 +24,4 @@ trino_demo/data/var/run/*.pid
 *.parquet
 .DS_Store
 pyiceberg/config.ini
+trino_demo/data/var/
