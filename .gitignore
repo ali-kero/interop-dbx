@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+.pyiceberg/
+env/
+*.env
+
+# Logs
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Trino-related files
+trino_demo/data/var/run/*.pid
+
+# PyArrow temporary files
+*.arrow
+*.parquet
+.DS_Store
+pyiceberg/config.ini
